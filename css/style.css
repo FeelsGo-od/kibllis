@@ -1,0 +1,154 @@
+/* general styles */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+ul {
+    list-style: none;
+}
+
+button {
+    border: none;
+    transition: all 0.2s ease;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* fonts styles */
+.m-500 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.m-600 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.m-700 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.p-500 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.p-600 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.p-700 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+/* ... ... */
+/* HEADER SECTION */
+/* ... ... */
+
+/* .. */
+header {
+    background: url('../images/bg/bg.png');
+    background-repeat: no-repeat;
+    background-position: 0px -100px;
+    background-size: cover;
+    height: 100vh;
+}
+
+.header-navigation,
+.navbar-content ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-navigation {
+    align-items: center;
+    background: #456b9a;
+    padding: 19px 106px 23px 50px;
+    border-bottom: 2px solid #ffff;
+}
+
+.header-navigation .logo {
+    width: 72px;
+    height: 22px;
+    margin-top: 7.4px;
+}
+
+.navbar-content .open-nav {
+    display: none;
+}
+
+.navbar-content a {
+    margin-left: 25px;
+    padding: 8px;
+    color: #fff;
+    font-size: 14.6px;
+    letter-spacing: 0.26px;
+}
+
+.navbar-content a:hover {
+    background: rgb(33 73 111 / 50%);
+    border-radius: 10px;
+}
+
+/* .. */
+.header-content {
+    /*width to change in diff. screens*/
+    width: 40%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    padding-left: 68px;
+    text-align: center;
+}
+
+.header-content .text {
+    padding-left: 68px;
+}
+
+.header-content h1 {
+    font-size: 49px;
+    text-align: left;
+}
+
+.header-content p {
+    font-size: 17.6px;
+    text-align: left;
+    margin: 29px 0 40px 0;
+    letter-spacing: 0.26px;
+}
+
+.header-content button {
+    background: #FFFFFF;
+    color: rgba(56, 176, 0, 0.74);
+    font-size: 20px;
+    padding: 15px 23px 15px 20px;
+    letter-spacing: 0.2px;
+}
+
+.header-content button:hover {
+    background: #456b9a;
+    color: #fffdfd;
+}
+
+/* ... ... */
+/* CONTENT SECTION */
+/* ... ... */
+
+/* .. */
+/* .content {
+    padding-top: 156px;
+} */
