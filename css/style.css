@@ -175,8 +175,12 @@ header {
     cursor: pointer;
 }
 
+.content-block img {
+    border-radius: 10px 10px 0px 0px;
+}
+
 .content-block .text {
-    margin-top: 20px;
+    margin-top: 10px;
     color: #919191;
 }
 
@@ -201,17 +205,19 @@ header {
 .content-block .descr {
     color: #666666;
     margin: 7px 0 3px 0;
+    font-size: 12px;
 }
 
 .content-block .distance {
     margin: 4px 0;
-    font-size: 12.5px;
+    font-size: 12px;
     font-weight: 400;
+    letter-spacing: 0.2px;
 }
 
 .block-title h2,
 .block-title p {
-    font-size: 17.6px;
+    font-size: 15.6px;
 }
 
 .content-block .block-title h2 {
@@ -227,6 +233,7 @@ header {
     font-weight: lighter;
     display: flex;
     align-items: center;
+    letter-spacing: 0.2px;
 }
 
 .content-block button {
@@ -256,3 +263,9 @@ header {
 .content-btn:hover {
     background: rgb(3, 136, 3);
 }
+
+/* ... ... */
+/* INFO SECTION */
+/* ... ... */
+
+/* .. */
