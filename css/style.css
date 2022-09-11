@@ -205,7 +205,9 @@ header {
 .content-block .descr {
     color: #666666;
     margin: 7px 0 3px 0;
-    font-size: 12px;
+    font-size: 12.6px;
+    letter-spacing: 0.4px;
+    line-height: 16px;
 }
 
 .content-block .distance {
@@ -215,9 +217,12 @@ header {
     letter-spacing: 0.2px;
 }
 
-.block-title h2,
-.block-title p {
+.block-title h2 {
     font-size: 15.6px;
+}
+
+.block-title p {
+    font-size: 12px;
 }
 
 .content-block .block-title h2 {
@@ -269,3 +274,22 @@ header {
 /* ... ... */
 
 /* .. */
+.info {
+    padding: 0 50px;
+}
+
+.info .text {
+    font-size: 19px;
+    color: #959595;
+    width: 50%;
+}
+
+.info .text p {
+    margin-top: 24px;
+}
+
+.info .title {
+    color: #5B5B5B;
+    font-size: 46px;
+    padding-bottom: 54px;
+}
