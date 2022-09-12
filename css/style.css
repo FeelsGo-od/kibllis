@@ -204,9 +204,10 @@ header {
 .content-block .descr {
     color: #666666;
     margin: 7px 0 3px 0;
-    font-size: 15.9px;
-    /* letter-spacing: 0.1px; */
-    line-height: 21px;
+    font-size: 12.5px;
+    letter-spacing: -0.1px;
+    line-height: 16px;
+    font-weight: normal;
 }
 
 .content-block .distance {
@@ -407,5 +408,5 @@ header {
 
 .review-opinion .opinion {
     font-weight: 600;
-    flex: 9;
+    flex: 6;
 }
