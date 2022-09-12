@@ -73,9 +73,8 @@ header {
 
 .header-navigation {
     align-items: center;
-    background: #456b9a;
+    background: #0000004a;
     padding: 19px 106px 23px 50px;
-    border-bottom: 2px solid #ffff;
 }
 
 .header-navigation .logo {
@@ -199,15 +198,15 @@ header {
     padding: 0 20px 0 10px;
     text-align: left;
     font-size: 10px;
-    font-size: 12.6px;
+    font-size: 10.6px;
 }
 
 .content-block .descr {
     color: #666666;
     margin: 7px 0 3px 0;
-    font-size: 12.6px;
-    letter-spacing: 0.4px;
-    line-height: 16px;
+    font-size: 15.9px;
+    /* letter-spacing: 0.1px; */
+    line-height: 21px;
 }
 
 .content-block .distance {
@@ -219,14 +218,11 @@ header {
 
 .block-title h2 {
     font-size: 15.6px;
+    text-align: left;
 }
 
 .block-title p {
     font-size: 12px;
-}
-
-.content-block .block-title h2 {
-    text-align: left;
 }
 
 .content-block .location img {
@@ -275,21 +271,141 @@ header {
 
 /* .. */
 .info {
-    padding: 0 50px;
+    padding: 0 50px 130px 50px;
+    display: flex;
+    align-items: flex-start;
 }
 
-.info .text {
+.info-text {
     font-size: 19px;
     color: #959595;
     width: 50%;
 }
 
-.info .text p {
+.info-text p {
     margin-top: 24px;
 }
 
-.info .title {
+.info-text .title {
     color: #5B5B5B;
     font-size: 46px;
     padding-bottom: 54px;
+}
+
+/* .. */
+.info-blocks {
+    display: grid;
+    grid-template-columns: 246px 246px;
+    grid-gap: 54px;
+    justify-content: center;
+    padding-left: 64px;
+    width: 50%;
+}
+
+.info-block {
+    padding: 31px 25px 0 23px;
+    box-shadow: 1px 4px 20px rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+    /* align-self: flex-start; */
+}
+
+.info-block img {
+    width: 43px;
+    height: 44px;
+}
+
+.info-block .info-title {
+    font-size: 17px;
+    color: #5B5B5B;
+}
+
+.info-block .info-descr {
+    font-size: 13px;
+    padding: 11px 0 20px 0;
+    color: #959595;
+}
+
+/* ... ... */
+/* BROCHURE SECTION */
+/* ... ... */
+
+/* .. */
+.brochure {
+    background: url('../images/brochure-bg.jpg');
+    padding: 47px 0 70px 0;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.brochure-title {
+    font-weight: 700;
+    padding: 19px 0 18px 0;
+    font-size: 35px;
+}
+
+.brochure-descr {
+    font-size: 20px;
+}
+
+/* ... ... */
+/* REVIEW SECTION */
+/* ... ... */
+
+/* .. */
+.review {
+    display: grid;
+    grid-template-columns: 476px 476px;
+    grid-gap: 46px;
+    row-gap: 94px;
+    justify-content: center;
+    padding: 86px 0 102px 0;
+}
+
+.review-title {
+    width: 476px;
+    font-size: 19px;
+    color: #959595;
+}
+
+.review-title .t {
+    color: #5B5B5B;
+    font-size: 46px;
+    padding-bottom: 54px;
+}
+
+.review-opinion {
+    position: relative;
+    width: 430px;
+    background: rgba(56, 176, 0, 0.5);
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+    color: #fff;
+    padding: 0 33px 72px 33px;
+    display: flex;
+    flex-direction: column;
+}
+
+.review-opinion:last-child {
+    background: #fff;
+    color: #9CD880;
+    padding-right: 26px;
+}
+
+.review-opinion img {
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    top: -45px;
+}
+
+.review-opinion .name {
+    text-align: center;
+    font-weight: 700;
+    margin: 7px 0 43px 0;
+    flex: 2;
+}
+
+.review-opinion .opinion {
+    font-weight: 600;
+    flex: 9;
 }
