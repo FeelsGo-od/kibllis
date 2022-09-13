@@ -1,4 +1,4 @@
-# Begin date: 10.09.2022 
+# (Branch: master) Begin date: 10.09.2022 
 1. Create Header
     - header: navbar
     - header: content
@@ -47,27 +47,74 @@
 -----
 
 8. Header Mobile v.
-#Deadline ~ 15.09.2022 16:00
+- Deadline ~ 15.09.2022 16:00
 
 9. Content Mobile v.
-#Deadline ~ 15.09.2022 20:00
+- Deadline ~ 15.09.2022 20:00
+- Done
 
 10. Info Mobile v.
-#Deadline ~ 16.09.2022 14:40
+- Deadline ~ 16.09.2022 14:40
+- Done
 
 11. Brochure Mobile v.
-#Deadline ~ 16.09.2022 16:20
+- Deadline ~ 16.09.2022 16:20
+- Done
 
 12. Reviews Mobile v.
-#Deadline ~ 16.09.2022 19:40
+- Deadline ~ 16.09.2022 19:40
+- Done
 
 13. Form Mobile v.
-#Deadline ~ 16.09.2022 20:20
+- Deadline ~ 16.09.2022 20:20
+
 
 14. Footer Mobile v.
-#Deadline ~ 17.09.2022 16:00
+- Deadline ~ 17.09.2022 16:00
+
 
 -----
 
 15. Tests of pc and mobile v.
 # Finish date ~ 17.09.2022 \ 18.09.2022
+-
+
+-----
+
+# (Branch: js-features) Javascript features Begin date: 
+16. On click a Header arrow - smoothly move page down to the content section
+-
+
+17. Smooth show-up of Header content
+-
+# Finish date ~
+-----
+
+# (Branch: react-features)  React features Begin date: 
+18. Load content-blocks from mock-api
+-
+
+19. Load only 4 blocks and show other on click "View more"
+-
+
+20. Make an admin-page
+-
+
+21. Create feature of adding blocks with data from admin-page
+-
+
+22. Load reviews from json
+-
+
+23. Create feature of sending message from Contact page
+-
+
+24. Add feature of receive message from Contact page on admin-page
+-
+
+25. Add feature of limit chars. in content-descr on admin-page
+# Finish date ~
+-----
+
+# (Branch: html-extra)
+26. Create page with Content block data informations on click More Details
