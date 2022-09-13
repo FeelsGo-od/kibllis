@@ -128,6 +128,7 @@ header {
     text-align: left;
     margin: 29px 0 40px 0;
     letter-spacing: 0.26px;
+    line-height: 24px;
 }
 
 .header-content button {
@@ -202,11 +203,10 @@ header {
 }
 
 .content-block .descr {
-    color: #666666;
+    color: #929292;
     margin: 7px 0 8px 0;
-    font-size: 12.5px;
-    letter-spacing: -0.1px;
-    line-height: 16px;
+    font-size: 13px;
+    line-height: 16.4px;
     font-weight: normal;
 }
 
@@ -409,4 +409,138 @@ header {
 .review-opinion .opinion {
     font-weight: 600;
     flex: 6;
+}
+
+/* ... ... */
+/* FORM SECTION */
+/* ... ... */
+
+/* .. */
+.form {
+    text-align: center;
+    padding-bottom: 144px;
+}
+
+.form-title {
+    color: #5B5B5B;
+    font-size: 46px;
+}
+
+.form form {
+    border: 0.3px solid #D6D6D6;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+    width: 702px;
+    margin: 0 auto;
+    margin-top: 30px;
+    display: flex;
+    padding: 18px 18px 18px 47px;
+}
+
+.form input {
+    background: none;
+    border: none;
+    color: #959595;
+    width: 100%;
+}
+
+.form button {
+    background: rgba(56, 176, 0, 0.5);
+    color: #fff;
+    padding: 20px 62px 20px 64px;
+    border-radius: 10px;
+    margin-left: auto;
+}
+
+/* ... ... */
+/* FOOTER */
+/* ... ... */
+
+/* .. */
+footer {
+    background: url('../images/footer-bg.png');
+    padding: 203px 0 42px 124px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+footer .logo {
+    width: 97px;
+    height: 34px;
+    margin: 14px 0 55px 0;
+}
+
+/* .. */
+footer .icons {
+    flex: 1;
+}
+
+footer .icons-title {
+    color: #fff;
+}
+
+footer .ic {
+    margin-top: 8.6px;
+}
+
+footer .ic img {
+    width: 24px;
+    height: 24px;
+}
+
+footer .ic a {
+    margin-left: 10px;
+}
+
+footer .ic a:first-child {
+    margin-left: 0;
+}
+
+footer .ic img:last-child {
+    width: 22px;
+    height: 22px;
+}
+
+/* .. */
+footer .links {
+    flex: 1;
+}
+
+footer .links,
+footer .contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    font-size: 17px;
+}
+
+footer .links-title,
+footer .contacts-title {
+    font-size: 24px;
+}
+
+footer .links a {
+    color: #fff;
+    margin-top: 10px;
+}
+
+footer .links a:first-child {
+    margin-right: 0;
+}
+
+/* .. */
+footer .contacts {
+    flex: 4;
+}
+
+footer .contacts p {
+    color: #fff;
+    margin-top: 10px;
+    text-align: center;
+}
+
+footer .contacts p:first-child {
+    margin-right: 0;
 }

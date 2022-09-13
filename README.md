@@ -35,7 +35,8 @@
     - footer: left content
     - footer: middle content
     - footer: right content
-#Deadline ~ 14.09.2022 20:20
+- Deadline ~ 14.09.2022 20:20
+- Done: 
 
 -----
 
