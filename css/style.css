@@ -586,6 +586,20 @@ footer .contacts p:first-child {
     .review {
         padding-left: 46px;
     }
+
+    /* / */
+    footer .contacts {
+        flex: 3;
+    }
+
+    footer .contacts p {
+        font-size: 15px;
+        padding: 0 90px;
+    }
+
+    footer .contacts p:first-child {
+        font-size: 23px;
+    }
 }
 
 /* .. */
@@ -621,6 +635,50 @@ footer .contacts p:first-child {
     .review {
         padding-left: 46px;
         grid-template-columns: 476px;
+    }
+
+    /* / */
+    footer {
+        /* flex-direction: column; */
+        padding: 173px 0 42px 0px;
+    }
+
+    footer .icons {
+        flex: 2;
+        padding-left: 20px;
+    }
+
+    footer .logo {
+        margin: 14px 0 18px 0;
+    }
+
+    footer .links {
+        padding-top: 15px;
+        flex: 2;
+    }
+
+    footer .links,
+    footer .contacts {
+        font-size: 15px;
+    }
+
+    footer .contacts {
+        flex: 4;
+    }
+
+    footer .contacts p {
+        font-size: 14px;
+        padding: 0 49px;
+        margin-top: 21px;
+    }
+
+    footer .contacts p:first-child {
+        font-size: 18px;
+    }
+
+    footer .links-title,
+    footer .contacts-title {
+        font-size: 18px;
     }
 }
 
@@ -692,6 +750,51 @@ footer .contacts p:first-child {
 
     .review-opinion {
         margin-left: 31px;
+    }
+
+    /* / */
+    footer {
+        flex-direction: column;
+        padding: 173px 0 42px 0px;
+        background-position: -136px;
+    }
+
+    footer .icons {
+        flex: 2;
+        padding-left: 20px;
+    }
+
+    footer .logo {
+        margin: 14px 0 18px 0;
+    }
+
+    footer .links {
+        flex: 2;
+    }
+
+    footer .links,
+    footer .contacts {
+        font-size: 15px;
+        padding-top: 35px;
+    }
+
+    footer .contacts {
+        flex: 4;
+    }
+
+    footer .contacts p {
+        font-size: 14px;
+        padding: 0 49px;
+        margin-top: 21px;
+    }
+
+    footer .contacts p:first-child {
+        font-size: 18px;
+    }
+
+    footer .links-title,
+    footer .contacts-title {
+        font-size: 18px;
     }
 }
 
@@ -781,6 +884,60 @@ footer .contacts p:first-child {
         margin-left: 31px;
         width: 279px;
     }
+
+    /* / */
+    footer {
+        flex-direction: column;
+        padding: 38px 0 42px 0px;
+        background-position: -330px;
+        background: #78c96a;
+    }
+
+    footer .icons {
+        flex: 2;
+        padding-left: 12px;
+    }
+
+    footer .logo {
+        margin: 14px 0 18px 0;
+        width: 75px;
+        height: auto;
+    }
+
+    footer .links {
+        flex: 2;
+    }
+
+    footer .links,
+    footer .contacts {
+        font-size: 15px;
+        padding-top: 35px;
+    }
+
+    footer .contacts {
+        flex: 4;
+    }
+
+    footer .contacts p {
+        font-size: 14px;
+        padding: 0 49px;
+        margin-top: 21px;
+    }
+
+    footer .contacts p:first-child {
+        font-size: 16px;
+    }
+
+    footer .links-title,
+    footer .contacts-title {
+        font-size: 16px;
+    }
+
+    footer .ic img:last-child {
+        width: 24px;
+        height: auto;
+        margin-top: 2px;
+    }
 }
 
 /* .. */
@@ -798,11 +955,16 @@ footer .contacts p:first-child {
 /* .. */
 @media (max-width: 829px) {
     .header-content {
-        margin-top: -62px; 
+        margin-top: -62px;
     }
 
     .header-content h1 {
         font-size: 30px;
+    }
+
+    .header-navigation .logo {
+        width: 48px;
+        height: auto;
     }
 
     .header-content p {
@@ -813,6 +975,29 @@ footer .contacts p:first-child {
     .header-content button {
         font-size: 9.6px;
         padding: 11px 23px 11px 20px;
+    }
+
+    /* / */
+    .review-opinion img {
+        width: 63px;
+        height: auto;
+        top: -28px;
+        left: 42px;
+    }
+
+    /* / */
+    .form-title {
+        color: #5B5B5B;
+        font-size: 34px;
+    }
+
+    .form form {
+        width: 78%;
+    }
+
+    .form button {
+        padding: 13px 27px 12px 27px;
+        border-radius: 5px;
     }
 }
 
@@ -835,6 +1020,26 @@ footer .contacts p:first-child {
         font-size: 10.3px;
         padding: 11px 23px 11px 20px;
     }
+
+    /* / */
+    .form-title {
+        color: #5B5B5B;
+        font-size: 29px;
+    }
+
+    .form form {
+        width: 78%;
+        padding: 18px 18px 18px 33px;
+    }
+
+    .form input {
+        font-size: 11px;
+    }
+
+    .form button {
+        padding: 13px 27px 12px 27px;
+        font-size: 10px;
+    }
 }
 
 /* .. */
@@ -845,5 +1050,28 @@ footer .contacts p:first-child {
 
     .header-content p {
         font-size: 13.6px;
+    }
+
+    /* / */
+    .form-title {
+        color: #5B5B5B;
+        font-size: 29px;
+    }
+
+    .form form {
+        width: 78%;
+        padding: 18px 18px 18px 21px;
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+    }
+
+    .form input {
+        font-size: 10px;
+        padding: 8px 3px;
+    }
+
+    .form button {
+        margin-left: 0;
     }
 }

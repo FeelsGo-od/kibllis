@@ -48,6 +48,7 @@
 
 8. Header Mobile v.
 - Deadline ~ 15.09.2022 16:00
+- Done
 
 9. Content Mobile v.
 - Deadline ~ 15.09.2022 20:00
@@ -67,7 +68,7 @@
 
 13. Form Mobile v.
 - Deadline ~ 16.09.2022 20:20
-
+- Done
 
 14. Footer Mobile v.
 - Deadline ~ 17.09.2022 16:00
