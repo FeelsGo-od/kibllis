@@ -577,6 +577,33 @@ footer .contacts p:first-child {
     }
 }
 
+/* .. */
+@media (min-width: 1361px) and (max-width: 1611px) {
+    .header-content {
+        height: 48vh;
+    }
+
+    .header-content h1 {
+        font-size: 32px;
+    }
+
+    .header-content button {
+        font-size: 15px;
+    }
+
+    .header-content p {
+        margin: 15px 0 15px 0;
+    }
+}
+
+/* .. */
+@media (min-width: 1201px) and (max-width: 1360px) {
+    .header-content {
+        height: 45vh;
+    }
+}
+
+/* .. */
 @media (max-width: 1360px) {
     .header-content {
         padding-left: 0;
@@ -598,6 +625,7 @@ footer .contacts p:first-child {
     }
 }
 
+/* .. */
 @media (max-width: 1200px) {
     header {
         background: url('../images/bg/bg1200.jpg');
