@@ -72,7 +72,7 @@
 
 14. Footer Mobile v.
 - Deadline ~ 17.09.2022 16:00
-
+- Done
 
 -----
 
