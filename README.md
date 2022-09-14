@@ -77,8 +77,7 @@
 -----
 
 15. Tests of pc and mobile v.
-# Finish date ~ 17.09.2022 \ 18.09.2022
-- Done
+# Done: 14.09.2022
 
 -----
 
