@@ -79,8 +79,6 @@
 15. Tests of pc and mobile v.
 - Done: 14.09.2022
 
------
-
 # (Branch: js-features) Javascript features Begin date: 
 16. On click a Header arrow - smoothly move page down to the content section
 - Done
@@ -113,7 +111,6 @@
 
 25. Add feature of limit chars. in content-descr on admin-page
 **Finish date ~**
------
 
 # (Branch: html-extra)
 26. Create page with Content block data informations on click More Details
