@@ -1,0 +1,117 @@
+/* .. */
+.content {
+    padding: 0 112px 200px 112px;
+    text-align: center;
+}
+
+.content-blocks {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 249px 249px 249px;
+    grid-gap: 52px;
+}
+
+.content-block {
+    position: relative;
+    width: 249px;
+    text-align: center;
+    box-shadow: 1px 4px 20px rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+    padding-bottom: 55px;
+}
+
+.content-block:hover {
+    box-shadow: 1px 2px 36px rgb(174 175 175 / 13%);
+    cursor: pointer;
+}
+
+.content-block img {
+    border-radius: 10px 10px 0px 0px;
+}
+
+.content-block .text {
+    margin-top: 10px;
+    color: #919191;
+}
+
+.content-block .block-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    color: #5B5B5B;
+    padding: 0 20px 0 10px;
+    margin-bottom: 9px;
+}
+
+.content-block .location,
+.content-block .distance,
+.content-block .descr {
+    padding: 0 20px 0 10px;
+    text-align: left;
+    font-size: 10px;
+    font-size: 12px;
+}
+
+.content-block .descr {
+    color: #929292;
+    margin: 7px 0 8px 0;
+    font-size: 12.9px;
+    /* line-height: 16.4px; */
+    font-weight: normal;
+}
+
+.content-block .distance {
+    margin: 4px 0;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+}
+
+.block-title h2 {
+    font-size: 15.6px;
+    text-align: left;
+}
+
+.block-title p {
+    font-size: 12px;
+}
+
+.content-block .location img {
+    width: 12.6px;
+    height: 12.6px;
+}
+
+.content-block .location {
+    font-weight: lighter;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2px;
+}
+
+.content-block button {
+    color: #fff;
+    background: rgba(56, 176, 0, 0.5);
+    padding: 12px 13px 12px 15px;
+    margin: 8px auto 11px auto;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 137px;
+}
+
+.content-block button:hover {
+    background: green;
+}
+
+.content-btn {
+    background: rgba(56, 176, 0, 0.5);
+    width: 152px;
+    height: 58px;
+    color: #fff;
+    margin-top: 105px;
+}
+
+.content-btn:hover {
+    background: rgb(3, 136, 3);
+}
