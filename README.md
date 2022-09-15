@@ -83,12 +83,12 @@
 
 # (Branch: js-features) Javascript features Begin date: 
 16. On click a Header arrow - smoothly move page down to the content section
--
+- Done
 
 17. Smooth show-up of Header content
--
+- 
 # Finish date ~
------
+----- Done
 
 # (Branch: react-features)  React features Begin date: 
 18. Load content-blocks from mock-api

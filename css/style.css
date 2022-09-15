@@ -52,6 +52,21 @@ button {
     font-weight: 700;
 }
 
+/* scroll animation */
+.scroll-reveal {
+    transition: all 0.5s ease;
+}
+
+.scroll-reveal.active {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.bottom {
+    transform: translateX(100px);
+    opacity: 0;
+}
+
 /* ... ... */
 /* HEADER SECTION */
 /* ... ... */
@@ -63,6 +78,7 @@ header {
     background-position: 0px -100px;
     background-size: cover;
     height: 100vh;
+    position: relative;
 }
 
 .header-navigation,
@@ -112,6 +128,9 @@ header {
     color: #fff;
     padding-left: 68px;
     text-align: center;
+    opacity: 0;
+    transition: all 0.9s ease;
+    transform: translateY(20px);
 }
 
 .header-content .text {
@@ -142,6 +161,17 @@ header {
 .header-content button:hover {
     background: #456b9a;
     color: #fffdfd;
+}
+
+/* .. */
+.down-btn {
+    margin: 0 auto;
+    position: absolute;
+    bottom: 82px;
+    width: 88px;
+    left: 0;
+    right: 0;
+    cursor: pointer;
 }
 
 /* ... ... */
@@ -761,6 +791,7 @@ footer .contacts p:first-child {
     .header-navigation {
         padding: 19px 55px 23px 50px;
     }
+
     .navbar-content .open-nav {
         display: block;
         background: none;
