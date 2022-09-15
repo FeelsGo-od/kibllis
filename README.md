@@ -86,9 +86,9 @@
 - Done
 
 17. Smooth show-up of Header content
-- 
+- Done
 # Finish date ~
------ Done
+----- 15.09
 
 # (Branch: react-features)  React features Begin date: 
 18. Load content-blocks from mock-api
