@@ -74,10 +74,10 @@
 - Deadline ~ 17.09.2022 16:00
 - Done
 
------
+---
 
 15. Tests of pc and mobile v.
-# Done: 14.09.2022
+- Done: 14.09.2022
 
 -----
 
@@ -87,12 +87,11 @@
 
 17. Smooth show-up of Header content
 - Done
-# Finish date ~
------ 15.09
+**Finish date - 15.09**
 
 # (Branch: react-features)  React features Begin date: 
 18. Load content-blocks from mock-api
--
+- Done
 
 19. Load only 4 blocks and show other on click "View more"
 -
@@ -113,7 +112,7 @@
 -
 
 25. Add feature of limit chars. in content-descr on admin-page
-# Finish date ~
+**Finish date ~**
 -----
 
 # (Branch: html-extra)
