@@ -1,5 +1,7 @@
 **See how I am doing it real-time (problem solving) - https://www.youtube.com/channel/UCeHIR25pLulO86bL8__kYeA**
 
+p.s - I stoped this project, cause it probably will not give me a job and won't fit in my portfolio..
+
 # (Branch: master) Begin date: 10.09.2022 
 1. Create Header
     - header: navbar
